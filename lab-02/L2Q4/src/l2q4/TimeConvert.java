@@ -12,6 +12,8 @@ public class TimeConvert {
         long minutes = (s % 3600) / 60;
         long seconds = s % 60;
         System.out.printf("%d seconds is %d hours, %d minutes and %d seconds%n", s, hours, minutes, seconds);
+
+        sc.close(); 
     }
     
 }
